@@ -10,7 +10,7 @@ BATCH_SIZE = 5
 def get_embeddings():
     return OllamaEmbeddings(model=EMBEDDING_MODEL)
 
-def split_text(text, chunk_size=500, chunk_overlap=100):
+def split_text(text, chunk_size=1000, chunk_overlap=200):
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=chunk_size,
         chunk_overlap=chunk_overlap,

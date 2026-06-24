@@ -1,4 +1,4 @@
-# RAG-QA-System-姓名-学号
+# RAG-QA-System---2405030244
 
 基于本地知识库的RAG（检索增强生成）智能问答系统，使用Ollama本地大模型、LangChain框架和Streamlit构建。
 

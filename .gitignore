@@ -10,7 +10,7 @@ venv/
 .env
 .env.local
 
-# Chroma DB
+# Chroma DB (runtime generated)
 chroma_db/
 *.chroma
 
@@ -31,7 +31,7 @@ Thumbs.db
 # Build
 dist/
 build/
-*.spec
+!app.spec
 
 # Logs
 *.log
